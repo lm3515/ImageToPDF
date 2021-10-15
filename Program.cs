@@ -81,7 +81,7 @@ namespace ImageToPDF
             Console.WriteLine(@"ImageToPDF - 将图片转换为PDF");
             Console.WriteLine(@"Copyright (c) 2020 印记（深圳）网络有限公司");
             Console.WriteLine(@"Copyright (c) 2020 Richard Liu");
-            Console.WriteLine(@"版本：1.0");
+            Console.WriteLine(@"Version：1.0." + DateTime.Now.ToString("yyyyMMdd"));
             Console.WriteLine(@"支持的格式有：png、jpg、gif、bmp");
         }
     }
